@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { FaTrash, FaMinus, FaPlus, FaArrowRight } from "react-icons/fa";
 
 
+
 interface CartItem {
   id: number;
   name: string;
