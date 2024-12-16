@@ -3,6 +3,7 @@
 import React, { useState } from "react";
 import { FaTrash, FaMinus, FaPlus, FaArrowRight } from "react-icons/fa";
 
+
 interface CartItem {
   id: number;
   name: string;
@@ -10,7 +11,7 @@ interface CartItem {
   color: string;
   price: number;
   quantity: number;
-  image: string;
+  Image: string;
 }
 
 const Cart = () => {
@@ -22,7 +23,7 @@ const Cart = () => {
       color: "White",
       price: 145,
       quantity: 1,
-      image: "/images/pic13.png",
+      Image: "/images/pic13.png",
     },
     {
       id: 2,
@@ -31,7 +32,7 @@ const Cart = () => {
       color: "Red",
       price: 180,
       quantity: 1,
-      image: "/images/pic3.png",
+      Image: "/images/pic3.png",
     },
     {
       id: 3,
@@ -40,7 +41,7 @@ const Cart = () => {
       color: "Blue",
       price: 240,
       quantity: 1,
-      image: "/images/pic2.png",
+      Image: "/images/pic2.png",
     },
   ]);
 
@@ -89,7 +90,7 @@ const Cart = () => {
             >
               <div className="flex items-center space-x-4">
                 <img
-                  src={item.image}
+                  src={item.Image}
                   alt={item.name}
                   className="w-24 h-24 object-cover rounded-lg"
                 />

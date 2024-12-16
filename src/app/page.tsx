@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client";
 
 import Header from "@/components/header";
 import Brands from "@/components/brands";
@@ -6,7 +6,7 @@ import NewArrivals from "@/components/NewArrivals";
 import TopSellers from "@/components/TopSellers";
 import Style from "@/components/style";
 import Customers from "@/components/Customers";
-import Link from "next/link";
+
 
 
 
